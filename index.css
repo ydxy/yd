@@ -1,0 +1,146 @@
+* {
+    margin: 0;padding: 0;
+}
+.box{
+    margin: 100px;
+    width: 240px;
+    height: 214px;
+    cursor: pointer;
+    padding-top: 1px;
+    position:relative;
+}
+
+.thumb {
+    width: 1em;
+    height: 1em;
+    margin-left: 229px;
+    margin-top: 50px;
+    font-size: 10px;
+    transform: rotate(90deg);
+    --hand-border-color: #c38b67;
+    --hand-bg-color: #e7c4ad;
+    background: var(--hand-border-color);
+    box-shadow:
+            1em 0 0 0 var(--hand-border-color),
+            1.5em 0.5em 0 0 var(--hand-border-color),
+            2em 1em 0 0 var(--hand-border-color),
+            2.5em 2em 0 0 var(--hand-border-color),
+            2.5em 3em 0 0 var(--hand-border-color),
+
+            3em 1em 0 0 var(--hand-border-color),
+            3.5em 0.5em 0 0 var(--hand-border-color),
+            4em 0 0 0 var(--hand-border-color),
+            5em 0 0 0 var(--hand-border-color),
+            5.5em 0.5em 0 0 var(--hand-border-color),
+            6em 1em 0 0 var(--hand-border-color),
+            6.5em 2em 0 0 var(--hand-border-color),
+            6.5em 3em 0 0 var(--hand-border-color),
+
+            7em 1em 0 0 var(--hand-border-color),
+            7.5em 0.5em 0 0 var(--hand-border-color),
+            8em 0 0 0 var(--hand-border-color),
+            9em 0 0 0 var(--hand-border-color),
+            9.5em 0.5em 0 0 var(--hand-border-color),
+            10em 1em 0 0 var(--hand-border-color),
+            10.5em 2em 0 0 var(--hand-border-color),
+            10.5em 3em 0 0 var(--hand-border-color),
+
+            11em 1em 0 0 var(--hand-border-color),
+            11.5em 0.5em 0 0 var(--hand-border-color),
+            12em 0 0 0 var(--hand-border-color),
+            13em 0 0 0 var(--hand-border-color),
+            13.5em 0.5em 0 0 var(--hand-border-color),
+            14em 1em 0 0 var(--hand-border-color),
+            14em 2em 0 0 var(--hand-border-color),
+            14em 3em 0 0 var(--hand-border-color),
+            14em 4em 0 0 var(--hand-border-color),
+            14em 5em 0 0 var(--hand-border-color),
+            14em 6em 0 0 var(--hand-border-color),
+            14em 7em 0 0 var(--hand-border-color),
+            14em 8em 0 0 var(--hand-border-color),
+            14em 9em 0 0 var(--hand-border-color),
+            14em 10em 0 0 var(--hand-border-color),
+            14em 11em 0 0 var(--hand-border-color),
+            14em 12em 0 0 var(--hand-border-color),
+            14em 13em 0 0 var(--hand-border-color),
+            14em 14em 0 0 var(--hand-border-color),
+            14em 15em 0 0 var(--hand-border-color),
+
+            13.5em 15.5em 0 0 var(--hand-border-color),
+            13em 16em 0 0 var(--hand-border-color),
+            12.5em 16.5em 0 0 var(--hand-border-color),
+            12.5em 17.5em 0 0 var(--hand-border-color),
+            12.5em 18em 0 0 var(--hand-border-color),
+            12.5em 19em 0 0 var(--hand-border-color),
+            12.5em 20em 0 0 var(--hand-border-color),
+            12.5em 21em 0 0 var(--hand-border-color),
+
+            12em 21em 0 0 var(--hand-border-color),
+            11em 21em 0 0 var(--hand-border-color),
+            10em 21em 0 0 var(--hand-border-color),
+            9em 21em 0 0 var(--hand-border-color),
+            8em 21em 0 0 var(--hand-border-color),
+            7em 21em 0 0 var(--hand-border-color),
+            6em 21em 0 0 var(--hand-border-color),
+            5em 21em 0 0 var(--hand-border-color),
+            4em 21em 0 0 var(--hand-border-color),
+            3em 21em 0 0 var(--hand-border-color),
+            2em 21em 0 0 var(--hand-border-color),
+            1em 21em 0 0 var(--hand-border-color),
+            0.5em 21em 0 0 var(--hand-border-color),
+            0.5em 20em 0 0 var(--hand-border-color),
+            0.5em 19em 0 0 var(--hand-border-color),
+            0.5em 18em 0 0 var(--hand-border-color),
+            0.5em 17em 0 0 var(--hand-border-color),
+            0.5em 16.5em 0 0 var(--hand-border-color),
+            0 16em 0 0 var(--hand-border-color),
+            -.5em 15.5em 0 0 var(--hand-border-color),
+            -1em 15em 0 0 var(--hand-border-color),
+            -1em 14em 0 0 var(--hand-border-color),
+            -2em 14em 0 0 var(--hand-border-color),
+            -3em 13em 0 0 var(--hand-border-color),
+            -4em 12em 0 0 var(--hand-border-color),
+            -5em 11em 0 0 var(--hand-border-color),
+            -5em 10em 0 0 var(--hand-border-color),
+            -5em 9em 0 0 var(--hand-border-color),
+            -4em 9em 0 0 var(--hand-border-color),
+            -3em 9em 0 0 var(--hand-border-color),
+            -2em 10em 0 0 var(--hand-border-color),
+            -1em 10em 0 0 var(--hand-border-color),
+            -1em 9em 0 0 var(--hand-border-color),
+            -1em 8em 0 0 var(--hand-border-color),
+            -1em 7em 0 0 var(--hand-border-color),
+            -1em 6em 0 0 var(--hand-border-color),
+            -1em 5em 0 0 var(--hand-border-color),
+            -1em 4em 0 0 var(--hand-border-color),
+            -1em 3em 0 0 var(--hand-border-color),
+            -1em 2em 0 0 var(--hand-border-color),
+            -1em 1em 0 0 var(--hand-border-color),
+            -.5em 0.5em 0 0 var(--hand-border-color),
+            
+            6.5em 8em 0 7em var(--hand-bg-color),
+            6.5em 15em 0 6em var(--hand-bg-color),
+            -3em 11em 0 1em var(--hand-bg-color),
+            -1em 12em 0 1em var(--hand-bg-color);
+}
+.ban {
+    --hand-border-color: #333;
+    --hand-bg-color: #fff;
+}
+.praise {
+    position: absolute;
+    opacity: 1;
+    right:100px;
+    top: 100px;
+    font-size: 20px;
+    color: green;
+    animation: praise 1s;
+}
+
+@keyframes praise {
+    100% {
+        opacity: 0;
+        right: 80px;
+        top: 80px;
+    }
+}
